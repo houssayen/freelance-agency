@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 255, 200, 0;
+  --bs-primary-rgb: 255, 111, 97;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11031,7 +11031,7 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
+  margin:1rem;
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
@@ -11047,9 +11047,6 @@ header.masthead .masthead-heading {
   font-style: italic;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.portfolio-modal .modal-content p {
-  margin-bottom: 2rem;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
@@ -11069,6 +11066,76 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
+
+.card-img,.card-img-bottom,.card-img-top {
+  width: 100%
+}
+
+
+.card-img {
+    position: relative;    
+}
+
+.card-img-hover {
+    display: block
+}
+
+.card-img-hover>* {
+    float: left
+}
+
+.card-img-hover .card-img-top {
+    transition: opacity .2s ease-in-out
+}
+
+.card-img-hover .card-img-back {
+    opacity: 0;
+    margin-bottom: 20px;
+}
+
+.card-img-hover .card-img-front {
+    margin-left: -100%
+}
+
+.card-img:hover .card-img-hover .card-img-back {
+    opacity: 1
+}
+
+.card-img:hover .card-img-hover .card-img-front {
+    opacity: 0
+}
+
+.card-body{flex:1 1 auto;padding:1.5rem 1.5rem}
+
+.fs-xs {
+    font-size: .875rem!important
+}
+
+.card-circle {
+  align-items: center;
+  background-color: #ff6f61;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  position: absolute;
+  top: 1.25rem;
+  width: 70px;
+  z-index: 1
+}
+
+.card-circle-lg {
+  height: 96px;
+  width: 96px;
+}
+
+.card-circle-end {
+  right: 1.25rem;
+}
+
 
 .timeline {
   position: relative;
@@ -11313,4 +11380,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-gray-300[href]:hover, .text-gray-350 {
+  color: #a6a6a6 !important;
 }
