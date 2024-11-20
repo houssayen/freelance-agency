@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*!
 * Start Bootstrap - Agency v7.0.12 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2023 Start Bootstrap
@@ -169,22 +168,6 @@ h3,
   }
 }
 
-h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-=======
-
->>>>>>> Stashed changes
-}
-
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
-  }
-=======
-
-
->>>>>>> Stashed changes
-}
 
 h5,
 .h5 {
@@ -13275,4 +13258,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .copyright {
   color: #f0f0f0;
+}
+
+.justify-text{
+	text-align:justify;
 }
