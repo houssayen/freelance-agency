@@ -8900,7 +8900,7 @@ fieldset:disabled .btn {
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1rem + 0.3vw) !important;
 }
 
 .fs-5 {
@@ -9925,9 +9925,11 @@ fieldset:disabled .btn {
   .text-sm-center {
     text-align: center !important;
   }
+
 }
 
 @media (min-width: 768px) {
+
   .float-md-start {
     float: left !important;
   }
@@ -10580,6 +10582,7 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
+
   .float-lg-start {
     float: left !important;
   }
@@ -11222,16 +11225,23 @@ fieldset:disabled .btn {
     text-align: left !important;
   }
 
-  .text-lg-end {
-    text-align: right !important;
-  }
+ 
 
   .text-lg-center {
     text-align: center !important;
+    text-align: right !important;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
   }
 }
 
 @media (min-width: 1200px) {
+
   .float-xl-start {
     float: left !important;
   }
@@ -11884,6 +11894,7 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 1400px) {
+  
   .float-xxl-start {
     float: left !important;
   }
@@ -13262,4 +13273,21 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .justify-text{
 	text-align:justify;
+}
+
+.text-lg-end {
+  text-align: right !important;
+}
+
+@media (max-width :1400px){  
+  .text-lg-end {
+    text-align: right !important;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
 }
