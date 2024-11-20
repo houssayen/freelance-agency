@@ -112,7 +112,20 @@ hr {
   opacity: 0.25;
 }
 
+<<<<<<< Updated upstream
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+=======
+h6,
+.h6,
+h5,
+.h5,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+>>>>>>> Stashed changes
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -147,13 +160,22 @@ h3, .h3 {
   }
 }
 
+<<<<<<< Updated upstream
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+=======
+
+>>>>>>> Stashed changes
 }
 @media (min-width: 1200px) {
+<<<<<<< Updated upstream
   h4, .h4 {
     font-size: 1.5rem;
   }
+=======
+
+
+>>>>>>> Stashed changes
 }
 
 h5, .h5 {
@@ -11385,3 +11407,14 @@ section#contact form#contactForm :-ms-input-placeholder {
 .text-gray-300[href]:hover, .text-gray-350 {
   color: #a6a6a6 !important;
 }
+<<<<<<< Updated upstream
+=======
+
+.copyright {
+  color: #f0f0f0;
+}
+
+.justify-text{
+  text-align: justify;
+}
+>>>>>>> Stashed changes
